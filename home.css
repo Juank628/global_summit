@@ -1,16 +1,3 @@
-.header-container {
-  padding: 20px;
-  background-color: var(--color-bg-gray-light);
-}
-
-.navbar {
-  padding-bottom: 30px;
-}
-
-.hamburger {
-  width: 40px;
-}
-
 .header-phrase {
   font-size: 18px;
   color: var(--color-red);

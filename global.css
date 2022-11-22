@@ -20,3 +20,16 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+
+.header-container {
+  padding: 20px;
+  background-color: var(--color-bg-gray-light);
+}
+
+.navbar {
+  padding-bottom: 30px;
+}
+
+.hamburger {
+  width: 40px;
+}
