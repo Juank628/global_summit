@@ -27,194 +27,194 @@
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 30px;
-    background-color: var(--color-bg-gray-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  background-color: var(--color-bg-gray-light);
 }
 
 .contact-text {
-    font-size: 12px;
-    line-height: 1.2rem;
-    width: 80%;
-    text-align: center;
-    margin: auto;
+  font-size: 12px;
+  line-height: 1.2rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
 .contact-email {
-    font-size: 12px;
-    font-weight: 600;
-    text-align: center;
-    color: black;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
 }
 
 .logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .logo-title {
-    font-size: 16px;
-    font-weight: 600;
-    width: 60%;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
 }
 
 .logo-line {
-    width: 15px;
-    border-color: var(--color-red);
-    background-color: var(--color-red);
+  width: 15px;
+  border-color: var(--color-red);
+  background-color: var(--color-red);
 }
 
 .logo-text {
-    font-size: 12px;
-    width: 75%;
+  font-size: 12px;
+  width: 75%;
 }
 
 .logo-frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0;
-    border: 1px solid var(--color-gray);
-    width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  border: 1px solid var(--color-gray);
+  width: 80%;
 }
 
 .logo-img {
-    width: 100px;
-    margin: 20px 0;
+  width: 100px;
+  margin: 20px 0;
 }
 
 .past-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .past-title {
-    font-size: 16px;
-    font-weight: 600;
-    width: 60%;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
 }
 
 .past-line {
-    width: 15px;
-    border-color: var(--color-red);
-    background-color: var(--color-red);
+  width: 15px;
+  border-color: var(--color-red);
+  background-color: var(--color-red);
 }
 
 .past-text {
-    font-size: 12px;
-    width: 75%;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 12px;
+  width: 75%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .past-photos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .past-photo {
-    width: 250px;
-    height: 140px;
-    background-size: cover;
+  width: 250px;
+  height: 140px;
+  background-size: cover;
 }
 
 .photo-1 {
-    background-image: url(./img/past_photo_1.jpg);
+  background-image: url(./img/past_photo_1.jpg);
 }
 
 .photo-2 {
-    background-image: url(./img/past_photo_2.jpg);
+  background-image: url(./img/past_photo_2.jpg);
 }
 
 .photo-filter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 250px;
-    height: 140px;
-    background: rgba(255, 0, 0, 0.5)
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  height: 140px;
+  background: rgba(255, 0, 0, 0.5);
 }
 
 .past-year {
-    font-size: 22px;
-    font-weight: 900;
-    color: white;
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
 }
 
 .past-place {
-    font-size: 12px;
-    text-align: center;
-    color: white;
-    width: 80%;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 80%;
 }
 
 .partner-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--color-bg-gray-dark);
-    padding: 30px 20px 40px 20px;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-gray-dark);
+  padding: 30px 20px 40px 20px;
+  margin-top: 20px;
 }
 
 .partner-title {
-    font-size: 16px;
-    color: white; 
+  font-size: 16px;
+  color: white;
 }
 
 .partner-line {
-    width: 15px;
-    border-color: var(--color-red);
-    background-color: var(--color-red);
+  width: 15px;
+  border-color: var(--color-red);
+  background-color: var(--color-red);
 }
 
 .partners {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .partner-logo {
-    width: 40px;
+  width: 40px;
 }
 
 .footer-container {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .footer-logo img {
-    width: 50px;
+  width: 50px;
 }
 
 .footer-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
 
 .footer-text {
-    font-size: 10px;
+  font-size: 10px;
 }
