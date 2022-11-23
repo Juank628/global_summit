@@ -9,6 +9,11 @@
   font-weight: 900;
   color: var(--color-red);
   margin-top: 10px;
+  background-image: url(./img/code_background.jpg);
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(236, 82, 62, 0.6);
 }
 
 .intro-container {
