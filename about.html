@@ -10,6 +10,18 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="mobile-menu display-none">
+        <div class="menu-close">
+            <img src="./img/close_icon.png" alt="">
+        </div>
+        <ul>
+            <li><a class="mobile-link" href="./index.html">Home</a></li>
+            <li><a class="mobile-link" href="./about.html">About</a></li>
+            <li><a class="mobile-link" href="./index.html#program">Program</a></li>
+            <li><a class="mobile-link" href="./about.html#partner">Partner</a></li>
+        </ul>
+    </nav>
+
     <header class="header-container">
       <div class="desktop-bar">
         <div class="desktop-upper-bar">
@@ -129,7 +141,7 @@
         </div>
       </section>
 
-      <section class="partner-container">
+      <section id="partner" class="partner-container">
         <h2 class="partner-title">Partner</h2>
         <hr class="partner-line" />
         <div class="partners">
@@ -151,5 +163,7 @@
         <p class="footer-text">Some Rights Reserved.</p>
       </div>
     </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>

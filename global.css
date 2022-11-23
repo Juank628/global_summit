@@ -26,6 +26,34 @@ ul {
   list-style-type: none;
 }
 
+.display-none {
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.95);
+}
+
+.menu-close {
+  width: 30px;
+  margin: 15px 15px 0 auto;
+}
+
+.menu-close img {
+  width: 100%;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  line-height: 3rem;
+}
+
 .header-container {
   background-color: var(--color-bg-gray-light);
 }
