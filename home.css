@@ -135,8 +135,10 @@
   margin: 5px auto 30px auto;
 }
 
-.speaker-items-container {
+.speakers-items-container {
   display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 .speakers-item {
@@ -278,7 +280,7 @@
   }
 
   .speakers-items-container {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
