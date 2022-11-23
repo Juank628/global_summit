@@ -42,17 +42,17 @@
         </div>
 
         <div class="desktop-lower-bar">
-            <div class="lower-bar-logo">
-                <img src="./img/summit_logo.png" alt="">
-            </div>
-            <ul>
-                <li><a class="lower-bar-link" href="">About</a></li>
-                <li><a class="lower-bar-link" href="">Program</a></li>
-                <li><a class="lower-bar-link" href="">Join</a></li>
-                <li><a class="lower-bar-link" href="">Sponsor</a></li>
-                <li><a class="lower-bar-link" href="">News</a></li>
-                <li><a class="lower-bar-link" href="">Camping</a></li>  
-            </ul>
+          <div class="lower-bar-logo">
+            <a href="./index.html"><img src="./img/summit_logo.png" alt="" /></a>
+          </div>
+          <ul>
+            <li><a class="lower-bar-link" href="./about.html">About</a></li>
+            <li><a class="lower-bar-link" href="#program">Program</a></li>
+            <li><a class="lower-bar-link" href="#">Join</a></li>
+            <li><a class="lower-bar-link" href="#partner">Sponsor</a></li>
+            <li><a class="lower-bar-link" href="#">News</a></li>
+            <li><a class="lower-bar-link" href="#">Camping</a></li>
+          </ul>
         </div>
       </div>
 
@@ -61,6 +61,7 @@
           <img class="hamburger" src="./img/menu_icon.png" alt="open menu" />
         </nav>
       </div>
+
       <div class="title-container">
         <p class="header-phrase">"Hello! Coders"</p>
         <h1 class="header-title">
@@ -84,7 +85,7 @@
         <p class="place">@National Museum of Lima, Convention Center</p>
       </section>
 
-      <section class="program-container">
+      <section id="program" class="program-container">
         <h2 class="program-title">Main Program</h2>
         <hr class="program-line" />
 
@@ -133,6 +134,8 @@
         <button type="button" class="join-button">
           Join React Global Summir 2022
         </button>
+
+        <a class="program-link" href="#">See the whole program</a>
       </section>
 
       <section class="speakers-container">
@@ -156,11 +159,52 @@
               </p>
             </div>
           </section>
+
+          <section class="speakers-item">
+            <div class="speakers-item-photo">
+              <div class="square"></div>
+              <img src="./img/profile-photo_1.jpg" alt="" />
+            </div>
+            <div class="speakers-item-info">
+              <h3 class="speaker-name">Juan Sanchez</h3>
+              <p class="speaker-position">React programer</p>
+              <hr class="speaker-line" />
+              <p class="speaker-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                architecto perspiciatis fugiat doloribus qui maiores voluptate
+                voluptatum velit
+              </p>
+            </div>
+          </section>
         </div>
 
         <button type="button" class="more-button">MORE</button>
       </section>
+
+      <section id="partner" class="partner-container">
+        <h2 class="partner-title">Partner</h2>
+        <hr class="partner-line" />
+        <div class="partners">
+          <img class="partner-logo" src="./img/google_logo.png" alt="" />
+          <img class="partner-logo" src="./img/meta_logo.png" alt="" />
+          <img class="partner-logo" src="./img/spotify_logo.png" alt="" />
+          <img class="partner-logo" src="./img/microsoft_logo.png" alt="" />
+          <img class="partner-logo" src="./img/airbnb_logo.png" alt="" />
+        </div>
+      </section>
+
     </main>
-    <footer></footer>
+    <footer class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="./img/summit_logo.png"
+            alt="summit logo"
+          />
+        </div>
+        <div class="footer-info">
+          <p class="footer-text">2022 Modern React Lima.</p>
+          <p class="footer-text">Some Rights Reserved.</p>
+        </div>
+      </footer>
   </body>
 </html>

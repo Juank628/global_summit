@@ -109,6 +109,12 @@
   margin: 30px auto;
 }
 
+.program-link {
+  display: none;
+  color: var(--color-gray);
+  margin: 50px 0;
+}
+
 .speakers-container {
   display: flex;
   flex-direction: column;
@@ -185,4 +191,116 @@
   padding: 10px;
   background-color: white;
   border: 1px solid var(--color-gray);
+}
+
+.partner-container {
+  display: none;
+}
+
+.footer-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .title-container {
+    padding-left: var(--padding-x-desktop);
+    margin: auto;
+  }
+
+  .header-phrase {
+    font-size: 30px;
+  }
+
+  .header-title {
+    font-size: 50px;
+  }
+
+  .intro-container {
+    padding-left: var(--padding-x-desktop);
+  }
+
+  .intro-text {
+    max-width: 400px;
+  }
+
+  .place-container {
+    padding-left: var(--padding-x-desktop);
+  }
+
+  .date {
+    font-size: 28px;
+  }
+
+  .place {
+    font-size: 18px;
+  }
+
+  .program-items-container {
+    flex-direction: row;
+    padding-left: var(--padding-x-desktop);
+    padding-right: var(--padding-x-desktop);
+  }
+
+  .program-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-item-icon {
+    width: 20%;
+  }
+
+  .program-item-icon img {
+    margin: auto;
+    width: 100%;
+  }
+
+  .program-item-title {
+    width: 300%;
+  }
+
+  .program-item-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .program-link {
+    display: block;
+  }
+
+  .speakers-container {
+    padding-left: var(--padding-x-desktop);
+    padding-right: var(--padding-x-desktop);
+  }
+
+  .speakers-items-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .speakers-item {
+    width: 50%;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  .partner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg-gray-dark);
+    padding: 30px 20px 40px 20px;
+    margin-top: 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding: 20px var(--padding-x-desktop);
+  }
 }
