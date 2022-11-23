@@ -1,11 +1,11 @@
-import { speakers } from './data.js';
+import speakers from './data.js';
 
 const speakersContainer = document.querySelector('.speakers-items-container');
-const moreSpeakersButton = document.querySelector('.more-button')
+const moreSpeakersButton = document.querySelector('.more-button');
 
 const renderSpeakers = (quantity) => {
   let htmlString = '';
-  for (let i = 0; i < quantity; i++) {
+  for (let i = 0; i < quantity; i += 1) {
     htmlString += `
         <section class="speakers-item">
             <div class="speakers-item-photo">
@@ -25,29 +25,29 @@ const renderSpeakers = (quantity) => {
 };
 
 const loadSpeakers = () => {
-    if (window.innerWidth < 768) {
-        renderSpeakers(2);
-      } else {
-        renderSpeakers(speakers.length)
-      }
-}
+  if (window.innerWidth < 768) {
+    renderSpeakers(2);
+  } else {
+    renderSpeakers(speakers.length);
+  }
+};
 
 window.addEventListener('load', () => {
-    loadSpeakers()
+  loadSpeakers();
 });
 
 window.addEventListener('resize', () => {
-    loadSpeakers()
-})
+  loadSpeakers();
+});
 
 moreSpeakersButton.addEventListener('click', () => {
-    const speakersItems = document.querySelectorAll('.speakers-item')
+  const speakersItems = document.querySelectorAll('.speakers-item');
 
-    if(speakersItems.length === speakers.length){
-        renderSpeakers(2)
-        moreSpeakersButton.textContent = "More"
-    } else {
-        renderSpeakers(speakers.length)
-        moreSpeakersButton.textContent = "Less"
-    }
-})
+  if (speakersItems.length === speakers.length) {
+    renderSpeakers(2);
+    moreSpeakersButton.textContent = 'More';
+  } else {
+    renderSpeakers(speakers.length);
+    moreSpeakersButton.textContent = 'Less';
+  }
+});
