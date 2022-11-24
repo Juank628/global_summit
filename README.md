@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./img/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -80,6 +80,7 @@ For more detail, please whatch this [video](https://www.loom.com/share/7a1d96ca3
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://juank628.github.io/global_summit/)
+- [Video Link](https://www.loom.com/share/7a1d96ca3e0943868e701e88a2cb72d8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
