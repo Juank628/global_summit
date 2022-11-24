@@ -54,7 +54,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Global Summit <a name="about-project"></a>
 
-Global Summit is my firts Microverse capstone project. In this project I applied all what I learned in the first four weeks. This is a responsive webpage about a global summit. 
+Global Summit is my firts Microverse capstone project. In this project I applied all what I learned in the first four weeks. This is a responsive webpage about a global summit.
+For more detail, please whatch this [video](https://www.loom.com/share/7a1d96ca3e0943868e701e88a2cb72d8) 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,6 +73,7 @@ Global Summit is my firts Microverse capstone project. In this project I applied
 - **Javascript DOM manipulation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
