@@ -158,7 +158,7 @@ ul {
 
 .footer-logo {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   width: 50%;
 }
@@ -176,7 +176,12 @@ ul {
 }
 
 .footer-text {
-  font-size: 10px;
+  margin-right: auto;
+  font-size: 12px;
+}
+
+.footer-text-long {
+  display: none;
 }
 
 /*
@@ -189,5 +194,33 @@ Media
 
   .mobile-bar {
     display: none;
+  }
+
+  .footer-logo {
+    width: 40%;
+  }
+
+  .footer-logo img {
+    width: 80px;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+  }
+
+  .footer-text {
+    font-weight: 600;
+    width: 20ch;
+    margin-right: 0;
+  }
+
+  .footer-text-long {
+    display: block;
+    width: 80ch;
+    font-size: 12px;
   }
 }

@@ -11,6 +11,17 @@
   color: var(--color-red);
   margin-top: 10px;
   text-align: center;
+  animation-duration: 1s;
+  animation-name: headerSize;
+}
+
+@keyframes headerSize {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .intro-container {
@@ -228,11 +239,12 @@
 
   .footer-container {
     margin-top: 80px;
-    padding: 20px var(--padding-x-desktop);
+    padding: 50px var(--padding-x-desktop);
     background-color: var(--color-bg-gray-darker);
   }
 
-  .footer-text {
+  .footer-text,
+  .footer-text-long {
     color: white;
   }
 }

@@ -2,6 +2,17 @@
   font-size: 18px;
   color: var(--color-red);
   margin: 5px 0;
+  animation-duration: 1s;
+  animation-name: headerPhraseSlide;
+}
+
+@keyframes headerPhraseSlide {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .header-title {
@@ -10,9 +21,20 @@
   margin-top: 10px;
   background-image: url(./img/code_background.jpg);
   background-size: contain;
-  background-clip: text;  /* stylelint-disable-line */
+  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: rgba(236, 82, 62, 0.6);
+  animation-duration: 1s;
+  animation-name: headerTitleSlide;
+}
+
+@keyframes headerTitleSlide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .intro-container {
@@ -78,8 +100,13 @@
   align-items: center;
   gap: 10px;
   background-color: var(--color-bg-gray-dark);
+  border: 1px solid var(--color-bg-gray-dark);
   padding: 20px;
   width: 80%;
+}
+
+.program-item:hover {
+  border: 1px solid white;
 }
 
 .program-item-icon {
@@ -307,6 +334,10 @@
 
   .footer-container {
     display: flex;
-    padding: 20px var(--padding-x-desktop);
+    padding: 50px var(--padding-x-desktop);
+  }
+
+  .footer-info {
+    display: flex;
   }
 }
